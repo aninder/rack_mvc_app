@@ -1,0 +1,20 @@
+PATH
+  remote: ../rack_mvc
+  specs:
+    rack_mvc (0.0.1)
+      erubis
+      rack
+      tilt
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    rack (1.6.0)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack_mvc!
