@@ -18,4 +18,8 @@ class PagesController < RackMvc::Controller
 
   def empty
   end
+
+  def react
+    #reactjs
+  end
 end
