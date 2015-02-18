@@ -8,7 +8,14 @@ class PagesController < RackMvc::Controller
 
   def about
     ##if no render then render the view with the same name as action
+    @through_instance_var = "instance"
+    render :about, through_render:"render"
   end
 
-end
+  def check
+    @var = "check check"
+  end
 
+  def empty
+  end
+end
